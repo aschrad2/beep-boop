@@ -6,7 +6,7 @@
 
 ## Description
 
-_Used jQuery and DOM manipulation to count through the number that was entered. However, just like Fizz Buzz, Beep Boop should replace certain values with numbers. Ie, when a number contains 1 it should instead be replaced with "Beep". When a number contains 2 it should be replaced with Boop. When a number contains 3 it should be replaced with "I'm sorry Dave. I'm afraid I can't do that. 13 and 32 should be replaced with "I'm sorry Dave. I'm afraid I can't do that. Lastly, 21 with should be replaced with "Boop. The rules are in order of importance, and thus the top most rule should trigger the replacement as opposed to a lower level rule. _
+Used jQuery and DOM manipulation to count through the number that was entered. However, just like Fizz Buzz, Beep Boop should replace certain values with numbers. Ie, when a number contains 1 it should instead be replaced with "Beep". When a number contains 2 it should be replaced with Boop. When a number contains 3 it should be replaced with "I'm sorry Dave. I'm afraid I can't do that. 13 and 32 should be replaced with "I'm sorry Dave. I'm afraid I can't do that. Lastly, 21 with should be replaced with "Boop. The rules are in order of importance, and thus the top most rule should trigger the replacement as opposed to a lower level rule.
 
 ## Setup/Installation Requirements
 
@@ -31,4 +31,4 @@ _I used jQuery and DOM manipulation to count through the number that was entered
 
 *MIT License.*
 
-Copyright (c) 2018 **_Austin Schrader_**
+Copyright (c) 2020 **_Austin Schrader_**
