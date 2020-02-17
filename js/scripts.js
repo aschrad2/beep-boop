@@ -5,25 +5,27 @@
 // var inputtedNumber = parseInt(prompt("What is your number?: "));
 
 function numberThrough(inputtedNumber) {
-    currentNumber = 1;
+    currentNumber = 0;
     for (i = 0; i < inputtedNumber; i++){
-        console.log("Hello " + currentNumber);
+        console.log("<li>" + currentNumber + "<li>");
+        $("ol").append("<li>" + currentNumber);
         currentNumber += 1;
+
     };
 };
 
-function printToDom() {
-    $("ol").append("<li>Hello</li>")
-}
+// function printToDom(results) {
+//     $("ol").append("<li>Hello</li>");
+//     console.log(results);
+//     $("ol").append(results);
+
+// }
 
 
 $(document).ready(function() {
     $("#number-form").submit(function(event) {
         var inputtedNumber = $("input#inputted-number").val();
-        // var convertedNumber = parseInt(inputtedNumber);
-        console.log(inputtedNumber);
-        results = numberThrough(inputtedNumber);
-        printToDom(results);
+        numberThrough(inputtedNumber);
         event.preventDefault();
     });
 });
