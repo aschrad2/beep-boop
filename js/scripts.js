@@ -1,7 +1,7 @@
 // Back End Logic
 function numberThrough(inputtedNumber) {
     currentNumber = 0;
-    for (i = 0; i < inputtedNumber; i++){
+    for (i = 0; i < (parseInt(inputtedNumber) + 1); i++){
         if (currentNumber.toString().indexOf('1') > -1) {
             $("ol").append("<li>Beep!");
             currentNumber += 1;
