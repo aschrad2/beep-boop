@@ -30,6 +30,7 @@ function numberThrough(inputtedNumber) {
 // Front End Logic
 $(document).ready(function() {
     $("#number-form").submit(function(event) {
+        $("ol").empty();
         var inputtedNumber = $("input#inputted-number").val();
         numberThrough(inputtedNumber);
         event.preventDefault();
