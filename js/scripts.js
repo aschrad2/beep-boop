@@ -2,15 +2,32 @@
 
 
 // Front End Logic
-
-var inputtedNumber = prompt("What is your number?: ")
+// var inputtedNumber = parseInt(prompt("What is your number?: "));
 
 currentNumber = 0
-for (i = 0; i < inputtedNumber + 1; i++) {
 
-    console.log("Hello " + currentNumber)
-    currentNumber += 1
-}
+$(document).ready(function() {
+    $("number-input").submit(function(event) {
+        var inputtedNumber = $("input#some-input").val();
+
+        event.preventDefault()
+    });
+});
+
+
+
+
+
+//     $("#button").click(function() {
+//         $("ol").append("<li>" + currentNumber + "<li>")
+//     });
+// });
+
+// for (i = 0; i < inputtedNumber + 1; i++) {
+//     console.log("Hello " + currentNumber)
+//     $('p').append("Hello " + currentNumber)
+//     currentNumber += 1
+// }
 
 
 // $(document).ready(function() {
