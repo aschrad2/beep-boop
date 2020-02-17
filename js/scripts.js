@@ -5,28 +5,22 @@ function numberThrough(inputtedNumber) {
         if (currentNumber.toString().indexOf('1') > -1) {
             $("ol").append("<li>Beep!");
             currentNumber += 1;
-        } 
-        else if (currentNumber.toString().indexOf('2') > -1) {
+        } else if (currentNumber.toString().indexOf('2') > -1) {
             $("ol").append("<li>Boop!");
             currentNumber += 1;
-        } 
-        else if (currentNumber.toString().indexOf('3') > -1) {
+        } else if (currentNumber.toString().indexOf('3') > -1) {
             $("ol").append("<li>I'm sorry, Dave. I'm afraid I can't do that.");
             currentNumber += 1;
-        } 
-        else if (currentNumber == 13) {
+        } else if (currentNumber == 13) {
             $("ol").append("<li>I'm sorry, Dave. I'm afraid I can't do that.");
             currentNumber += 1;
-        } 
-        else if (currentNumber == 21) {
+        } else if (currentNumber == 21) {
             $("ol").append("<li>Boop");
             currentNumber += 1;
-        } 
-        else if (currentNumber == 32) {
+        } else if (currentNumber == 32) {
             $("ol").append("<li>I'm sorry, Dave. I'm afraid I can't do that.");
             currentNumber += 1;
-        } 
-        else {
+        } else {
             $("ol").append("<li>" + currentNumber);
             currentNumber += 1;
         }
