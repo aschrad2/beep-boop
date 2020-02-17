@@ -12,16 +12,19 @@ function numberThrough(inputtedNumber) {
     };
 };
 
+function printToDom() {
+    $("ol").append("<li>Hello</li>")
+}
+
+
 $(document).ready(function() {
     $("#number-form").submit(function(event) {
         var inputtedNumber = $("input#inputted-number").val();
         // var convertedNumber = parseInt(inputtedNumber);
         console.log(inputtedNumber);
-        numberThrough(inputtedNumber);
+        results = numberThrough(inputtedNumber);
+        printToDom(results);
         event.preventDefault();
-    
-
-
     });
 });
 
