@@ -26,10 +26,10 @@ Used jQuery and DOM manipulation to count through the number that was entered. H
     * Output: "0, "Beep"!, "Boop"
 * Spec: If the programs returned range includes a number containing 2 then it replaces that number with "Boop!"
     * Input: "21"
-    * Output: "0, "Beep"!, "Boop"
+    * Output: ... "Beep", "Boop"!, "Beep"
 * Spec: If the programs returned range includes a number containing 2 then it replaces that number with "Boop!"
     * Input: "32"
-    * Output: "0, "Beep"!, "Boop"
+    * Output: "I'm sorry, Dave. I'm afraid I can't do that.", "Beep"!, "Boop"
 
 
 ## Setup/Installation Requirements
