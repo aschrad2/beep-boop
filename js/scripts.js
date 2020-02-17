@@ -4,14 +4,21 @@
 // Front End Logic
 // var inputtedNumber = parseInt(prompt("What is your number?: "));
 
-currentNumber = 0
+
 
 $(document).ready(function() {
     $("#number-form").submit(function(event) {
         var inputtedNumber = $("input#inputted-number").val();
+        // var convertedNumber = parseInt(inputtedNumber);
         console.log(inputtedNumber);
-
         event.preventDefault()
+        
+        currentNumber = 1;
+        for (i = 0; i < inputtedNumber; i++){
+            console.log("Hello " + currentNumber)
+            currentNumber += 1
+        }
+
     });
 });
 
