@@ -7,15 +7,13 @@
 currentNumber = 0
 
 $(document).ready(function() {
-    $("number-input").submit(function(event) {
-        var inputtedNumber = $("input#some-input").val();
+    $("#number-form").submit(function(event) {
+        var inputtedNumber = $("input#inputted-number").val();
+        console.log(inputtedNumber);
 
         event.preventDefault()
     });
 });
-
-
-
 
 
 //     $("#button").click(function() {
